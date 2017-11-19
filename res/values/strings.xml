@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EAT府城</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="action_settings">Settings</string>
+	<string name="login_success">登入成功</string>
+    <string name="login_failed">登入失敗</string>
+	<string name="about">版本 1.0.0 關於協力廠商軟體的協力廠商聲明、條款與條件請參閱http://www.ncku.edu.tw  Copyright ©2014 NCKU JOC team Incorporated and its licensors. All right served.</string>
+    <string name="help">目前不提供任何幫助，請自求多福</string>
+    <string name="app_add">新增</string>
+	<string name="app_update">更新</string>
+	<string name="app_delete">刪除</string>
+	<string name="app_clear">清除</string>
+	<string name="app_username">姓名:</string>
+	<string name="app_telephone">電話:</string>
+	<string name="app_address">地址:</string>
+	<string name="app_mail">E-Mail:</string>
+	<string name="nickname">暱稱:</string>
+	<string name="job">職稱:</string>
+	<string name="company">公司名稱:</string>
+	<string name="FAX">傳真電話:</string>
+
+	<string name="shop_name">店名</string>
+	<string name="shop_phone">電話</string>
+	<string name="shop_des">簡述</string>
+	<string name="shop_address">地址</string>
+	<string name="shop_time">營業時間</string>
+	<string name="shop_locX">x</string>
+	<string name="shop_locY">y</string>
+	<string name="shop_id">id</string>
+	<string name="shop_number">編號</string>
+	<string name="shop_update">更新時間</string>
+	<string name="shop_category">店家分類</string>
+	<string name="shop_dist">距離</string>
+	
+	
+	
+</resources>

@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <Spinner android:id="@+id/Spinner01" android:layout_width="wrap_content" android:layout_height="wrap_content"></Spinner>
+    <TableLayout 
+        android:id="@+id/TableLayout01"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:stretchColumns="1" 
+        android:gravity="center">
+        <TableRow android:id="@+id/TableRow01" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content">
+        <TextView 
+            android:id="@+id/TextViewShopName" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:text="@string/shop_name"></TextView>
+        
+        <EditText android:id="@+id/EditTextShopName" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:hint="請輸入店名"></EditText>
+        
+</TableRow>
+<TableRow 
+    android:id="@+id/TableRow02" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content">
+<TextView 
+    android:id="@+id/TextViewPhone" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="@string/shop_phone"></TextView>
+
+<EditText 
+    android:id="@+id/EditTextPhone" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:hint="請輸入電話號碼"
+    
+    ></EditText>
+
+</TableRow>
+<TableRow 
+    android:id="@+id/TableRow03" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content">
+<TextView 
+    android:id="@+id/TextViewAddress" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="@string/shop_address"></TextView>
+
+<EditText 
+    android:id="@+id/EditTextAddress" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:hint="請輸入地址"
+    ></EditText>
+
+</TableRow>
+<TableRow 
+    android:id="@+id/TableRow04" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content">
+<TextView 
+    android:id="@+id/TextViewTime" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="@string/shop_time"></TextView>
+
+<EditText 
+    android:id="@+id/EditTextTime" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:hint="請輸入營業時間"
+    ></EditText>
+</TableRow>
+
+<TableRow 
+    android:id="@+id/TableRow05" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content">
+
+    <TextView 
+    android:id="@+id/TextViewLocX" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="@string/shop_locX"
+    ></TextView>
+
+<EditText 
+    android:id="@+id/EditTextLocX" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:hint="請輸入x座標"
+    ></EditText>
+</TableRow>
+
+<TableRow 
+    android:id="@+id/TableRow06" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content">
+
+    <TextView 
+    android:id="@+id/TextViewLocY" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="@string/shop_locY"
+    ></TextView>
+
+<EditText 
+    android:id="@+id/EditTextLocY" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:hint="請輸入y座標"
+    ></EditText>
+</TableRow>
+
+<TableRow 
+    android:id="@+id/TableRow07" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content">
+
+    <TextView 
+    android:id="@+id/TextViewCategory" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="@string/shop_category"
+    ></TextView>
+
+<EditText 
+    android:id="@+id/EditTextCategory" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:hint="請輸入分類代碼"
+    ></EditText>
+</TableRow>
+
+<TableRow 
+    android:id="@+id/TableRow08" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content">
+
+    <TextView 
+    android:id="@+id/TextViewChangeTime" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="@string/shop_update"
+    ></TextView>
+
+<EditText 
+    android:id="@+id/EditTextChangTime" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:hint="請輸入更新時間"
+    
+    ></EditText>
+</TableRow>
+
+<TableRow 
+    android:id="@+id/TableRow09" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content">
+
+    <TextView 
+    android:id="@+id/TextViewId" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="@string/shop_id"
+    ></TextView>
+
+<EditText 
+    android:id="@+id/EditTextID" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:hint="請輸入id"
+    
+    ></EditText>
+</TableRow>
+
+<TableRow 
+    android:id="@+id/TableRow10" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content">
+
+    <TextView 
+    android:id="@+id/TextViewNumber" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="@string/shop_number"
+    ></TextView>
+
+<EditText 
+    android:id="@+id/EditTextNumber" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:hint="請輸入店家編號"
+    
+    ></EditText>
+
+
+
+</TableRow>
+
+<TableRow 
+    android:id="@+id/TableRow10" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content">
+
+    <TextView 
+    android:id="@+id/TextViewDescription" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="@string/shop_des"
+    ></TextView>
+
+<EditText 
+    android:id="@+id/EditTextDescription" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:hint="請輸入店家簡述"
+    
+    ></EditText>
+
+
+
+</TableRow>
+
+</TableLayout><LinearLayout 
+    android:id="@+id/LinearLayout01" 
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent">
+
+<Button 
+    android:id="@+id/Button01" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="@string/app_add"
+    android:minWidth="12px"></Button>
+
+<Button 
+    android:id="@+id/Button02" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="@string/app_update" 
+    android:minWidth="12px"></Button>
+
+<Button 
+    android:id="@+id/Button03" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="@string/app_delete" 
+    android:minWidth="12px"></Button>
+
+<Button 
+    android:id="@+id/Button04" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:minWidth="12px" android:text="@string/app_clear"></Button>
+
+
+</LinearLayout>
+<ImageView
+			android:id="@+id/imgView"
+			
+			android:layout_weight="1" 
+			
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:scaleType="fitXY"
+			></ImageView>
+	<Button 
+			android:layout_height="wrap_content" 
+			android:text="選取圖片" 
+			android:layout_width="wrap_content" 
+			android:id="@+id/buttonLoadPicture" 
+			android:layout_weight="0" 
+			android:layout_gravity="center"></Button>
+</LinearLayout>
+</ScrollView>

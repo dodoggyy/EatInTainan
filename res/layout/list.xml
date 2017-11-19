@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+ xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_height="match_parent" 
+ android:layout_width="match_parent" 
+ android:orientation="vertical"
+ android:background="#444444"
+ >
+
+<LinearLayout
+    android:id="@+id/linearLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="100sp"
+        android:layout_height = "100sp"
+        android:src="@drawable/ic_launcher2" />
+ 
+ <TextView   
+ android:id="@+id/list_shopname_textView" 
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"
+ android:layout_marginLeft="7dip"
+ android:layout_marginTop="7dip"
+ android:textColor="@color/white"
+ android:textSize="24sp"
+ android:text="店名"
+ >
+ 
+ </TextView>
+ 
+  
+ </LinearLayout>
+ 
+ <TextView 
+ android:id="@+id/list_address_textView" 
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"
+ android:textColor="#FF8800"
+ android:textSize="14sp"
+ android:layout_marginLeft="6dip"
+ android:text="地址" >
+ </TextView>
+ 
+ <TextView android:id="@+id/list_shoptime_textView" 
+     android:layout_width="wrap_content" 
+     android:layout_height="wrap_content" 
+     android:layout_marginLeft="6dip"
+     android:textSize="15sp" 
+     android:textColor="@color/white"
+     android:text="營業時間" 
+     />
+ <TextView 
+ android:id="@+id/list_desc_textView" 
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"
+ android:textColor="#AA7700"
+ android:textAppearance="?android:attr/textAppearanceSmall" 
+ android:textSize="10sp"
+ 
+ android:layout_marginLeft="6dip"
+ android:text="描述" />
+ 
+
+ 
+
+ 
+</LinearLayout>
